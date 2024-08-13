@@ -1,0 +1,309 @@
+/* adding universal properties */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* totalwidth and height setting */
+.total-main{
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+}
+/* top bar details are here */
+.top-head{
+    width: 100%;
+    height: 56px;
+    background-color:#fff;
+    position: fixed;
+    display: flex;
+
+}
+/* adding top bar contents details */
+.bar-3line{
+    border-radius: 50%;
+    margin: 5px 8px;
+    height: 43px;
+    width: 42px;
+    padding: 12px;
+    cursor: pointer;
+}
+.bar-3line-div{
+    width: 25px;
+    height: 40px;
+}
+.bar-3line:hover{
+background:rgb(242, 243, 240) ;
+}
+.yt-logo{
+    margin: -8px 0px 0px 23px;
+    width: 120px;
+    height: 70px;
+}
+.in{
+    margin:14px 0px 0px -18px;
+    color:#c6c9cc;    ;
+    font-size: 10px;
+    font-family:mat;
+}
+
+.searchbar-outer{
+    width: 536px;
+    height: 40px;
+    background-color: rgb(230, 230, 232);
+    margin: 8px 0px 0px 160px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+    
+}
+.searchbar-inner{
+    width: 532px;
+    height: 36px;
+    background-color: #fff;
+    margin: 2px 0 0px 2px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.serch-btn{
+    margin-top: 9px;
+    width: 65px;
+    height: 38px;
+    border: rgb(230, 230, 232); 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.serch-btn:hover{
+    background:rgb(229, 229, 231); 
+}
+.mic-btn{
+    margin-top: 9px;
+    width: 40px;
+    height: 40px;
+    border: rgb(230, 230, 232);
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.mic-btn-img{
+    width: 23px;
+    height: 30px;
+    border: rgb(230, 230, 232);
+    margin-left: -22px; 
+}
+.mic-btn:hover{
+background:rgb(229, 229, 231); ;
+}
+.videoicon-btn{
+    margin-top: 9px;
+    width: 40px;
+    height: 40px;
+    border: rgb(230, 230, 232);
+    border-radius: 50%;
+    margin-left: 126px;
+    cursor: pointer;
+}
+.videoicon-btn-img{
+    width: 23px;
+    height: 30px;
+    border: rgb(230, 230, 232);
+    margin-left: -125px; 
+}
+.videoicon-btn:hover{
+background:rgb(229, 229, 231); ;
+}
+.notification-btn{
+    margin-top: 9px;
+    width: 40px;
+    height: 40px;
+    border: rgb(230, 230, 232);
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.notification-btn-img{
+    width: 23px;
+    height: 30px;
+    border: rgb(230, 230, 232);
+    margin-left: -15px; 
+}
+.notification-btn:hover{
+background:rgb(229, 229, 231); ;
+}
+.profile-btn{
+    margin-top: 9px;
+    width: 40px;
+    height: 40px;
+    border: rgb(230, 230, 232);
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.profile-btn-img{
+    width: 20px;
+    height: 20px;
+    border: rgb(230, 230, 232);
+    margin-left: -15px; 
+}
+.profile-btn:hover{
+background:rgb(229, 229, 231); ;
+}
+/* side bar details are here  */
+.side-bar{
+    width: 72px;
+    height: 605px;
+    background-color: #fff;
+position: fixed;
+margin-top: 56px;
+display: grid;
+grid-template-rows: repeat(5,74px);
+row-gap: 10px;
+justify-content: center;
+cursor: pointer;
+}
+/* adding sid bar content details */
+.side-bar>div{
+    width: 64px;
+    height: 74px;
+    background-color: #fff;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: none;
+}
+.sidebr-images{
+    width: 24px;
+    height: 24px;
+    margin: 25px 20px 20px 20px;
+}
+.side-bar>div:hover{
+    background: #dddede;
+}
+/* adding side bar contents details */
+.home-spn{
+    font-size: 10px;
+    font-weight: 450;
+    margin-top:-15px;
+    margin-left: 19px;
+    font-family: Roboto,Arial, sans-serif;
+}
+.shorts-spn{
+    font-size: 10px;
+    font-weight: 450;
+    margin-top:-15px;
+    margin-left: 16px;
+    font-family: Roboto,Arial, sans-serif;
+}
+.sub-spn{
+    font-size: 10px;
+    font-weight: 450;
+    margin-top:-15px;
+    margin-left: 2px;
+    font-family: Roboto,Arial, sans-serif;
+}
+.you-spn{
+    font-size: 10px;
+    font-weight: 450;
+    margin-top:-15px;
+    margin-left: 23px;
+    font-family: Roboto,Arial, sans-serif;
+}
+.downloads-spn{
+    font-size: 10px;
+    font-weight: 450;
+    margin-top:-15px;
+    margin-left: 7px;
+    font-family: Roboto,Arial, sans-serif;
+}
+/* nav bar details are here */
+.second-topbr{
+    width: 1911px;
+    height: 56px;
+    background-color: #fff;
+    position: fixed;
+    margin-top: 56px;
+    margin-left: 72px;
+    display: flex;
+align-items: center;
+column-gap: 10px;
+}
+#all{
+    background: black;
+    color: #fff !important;
+}
+.second-topbr>span{
+    background: #edecec;
+    height: 30px;
+padding: 7px;
+font: 14px Roboto,Arial, sans-serif ;
+color: black;
+font-weight: 600;
+margin-left: 10px;
+cursor: pointer;
+border-radius: 5px;
+}
+.second-topbr>span:hover{
+background: #dddede;
+}
+
+.content-body{
+    width: 93%;
+    height: 100%;
+}
+/* video display details are here */
+.videos-display{
+    width: 1203px;
+    height: 100%;
+    background: #fff;
+    margin-left: 71px;
+    margin-bottom: -24px;
+    display: grid;
+    grid-template-columns: repeat(3,375px);
+    grid-template-rows: repeat(3,auto);
+    row-gap: 15px;
+    column-gap: 20px;
+}
+.row1{
+    margin-top: 140px;
+}
+.videos-display>div{
+width: 375px ;
+height: 350px;
+background: #fff;
+margin-left: 22px;
+border-radius: 15px;
+cursor: pointer;
+}
+.videos-display>div:hover{
+border-width: 100px;
+background: #dce5ed;
+}
+.video-img-space{
+    width: 375px;
+    height: 210px;
+}
+.video-img{
+width: 375px;
+height: 210px;
+}
+.vdeo-discription{
+    width: 375px;
+    height: 138px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.logoos{
+    border-radius: 50%;
+    width: 40px;
+    margin: 10px 10px 10px 34px;
+}
+.details-text{
+    font-family: Roboto,Arial, sans-serif;
+}
+.verified{
+    height: 13px;
+}
